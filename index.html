@@ -3,57 +3,226 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
     <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     />
-    <link rel="stylesheet" href="/style.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="/GROW TECH/portfolio/photo" />
   </head>
   <body>
     <header>
-      <img
-        src="/img/6f6e35e739b629080f6ff68bc9f4e85e-removebg-preview.png"
-        class="logo"
-      />
-      <i class="fa-solid fa-bars toggle-btn"></i>
-      <nav class="navbar">
-        <a href="#">Home</a>
-        <a href="#">Event</a>
-        <a href="#">Venue</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
+      <nav>
+        <img src="/imgs/logo3-removebg-preview.png" alt="" class="logo">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </nav>
-      <i class="fa-solid fa-moon mode"></i>
-      <div class="bg-nav"></div>
     </header>
-    <section class="home">
+    <!-- start home section -->
+    <div class="home" id="home">
       <div class="content">
-        <h3>Happy<br /><span>India</span><br />Independence Day</h3>
-        <p>
-          India celebrates 15 August as its Independence Day because on this day
-          in 1947, the British colonial forces left Indian soil, granting
-          Indians the power to establish an independent nation. Additionally,
-          British India was partitioned into India and Pakistan on the midnight
-          of 14-15 August 1947, marking a significant milestone in India's
-          freedom struggle.
-        </p>
-        <a href="#" class="btn"><span></span>Read More</a>
-        <div class="icon">
-          <a href="#"><i class="fa-brands fa-facebook"></i></a>
-          <a href="#"><i class="fa-brands fa-twitter"></i></a>
-          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <p style="font-size: 200%">Hello,&nbsp;&nbsp;I am</p>
+      <p style="font-size: 300%; color: rgb(203, 25, 81)">Kirti Choudhary</p>
+      <p style="font-size: 150%">Frontend Developer</p>
+      <br />
+      <a href="/imgs/FrontendDev_KirtiResume.pdf"
+        ><button>Download Resume</button></a
+      >
+    </div>
+    </div>
+    <!-- start About section -->
+    <div id="about">
+      <h2>My About</h2>
+      <div class="about">
+        <div class="div1">
+          <h3>Who am I ?</h3>
+          <br />
+          <b>A Web Developer</b>
+          <p>
+            I am fresher. I have completed my graduation  bacholer of computer applications and i am also pursuing master of computer applications. I have knowledge some programming languages such as html, css, javaScript, bootstrap and react. I have completed some mini projects such as, Tic-Tac-Toe game, Landing Page, Occassions Services etc. Passion about development goal is to
+            archieve a good position by doing satisfying work in the IT field,
+            strongly focused to complate the task in fast faced environment.
+          </p>
+          <br />
+        </div>
+        <div class="div-img">
+          <img src="/imgs/kirti-img.jpg" alt="" width="300px" height="300px">
+      </div>
+        <div class="div1">
+          <h3>Personal Info</h3>
+          <br />
+          <p>Name: Kirti_Choudhary</p>
+          <br />
+          <p>Birthdate : 08/06/2002</p>
+          <br />
+          <p>Email: kirtichoudhary9340@gmail.com</p>
+          <br />
+          <p>Mobile No: 9340685695</p>
+          <br />
+          <p>Address: Vijay Nagar,Indore(M.P)</p>
+        </div>
+    </div>
+    <br />
+    <!-- start skills section -->
+    <div id="skills">
+      <h2>My Skills</h2>
+      <div class="skills">
+        <div class="div2">
+          <h3>Expertise</h3>
+          <br />
+          <b>2023</b>
+          <p>Front-end Developer</p>
+          <p>I have done three month training in Frontend web development from Grow Tech.</p>
+          <br />
+          <b>2024 - Present</b>
+          <p>Web Development</p>
+          <p>I have currently intern in CODSOFT. I am working on mini projects. </p>
+          <br />
+          <br /><br />
+          <h3>Education</h3>
+          <br />
+          <div class="div3">
+            <b>2023</b>
+            <p style="color: rgb(168, 197, 177)">
+              Becholer Of Computer Application
+            </p>
+            <br />
+            <p>
+              I have complated my graduation in Becholer Of Computer Application
+              from DAVV Indore with 76.42% CGPA .
+            </p>
+          </div>
+          <br />
+          <div class="div3">
+            <b>2021</b>
+            <p style="color: rgb(168, 197, 177)">12th</p>
+            <br />
+            <p>Completed HSC from Madhya Pradesh Board with 74.4%.</p>
+          </div>
+          <br />
+          <div class="div3">
+            <b>2019</b>
+            <p style="color: rgb(168, 197, 177)">10th</p>
+            <br />
+            <p>Completed HSC from Madhya Pradesh Board with 83%.</p>
+          </div>
+        </div>
+        <div class="div2">
+          <div>
+            <h3>Skills</h3>
+            <br />
+            <p>Hypertext Markup Language</p>
+            <br />
+            <div class="range"><div class="range3">90%</div></div>
+            <br />
+            <p>Cascanding Style Sheet</p>
+            <br />
+            <div class="range"><div class="range1">85%</div></div>
+            <br />
+            <p>Boostrap</p>
+            <br />
+            <div class="range"><div class="range5">70%</div></div>
+            <br />
+            <p>JavaScript</p>
+            <br />
+            <div class="range"><div class="range2">50%</div></div>
+            <br />
+            <p>ReactJs</p>
+            <br />
+            <div class="range"><div class="range4">30%</div></div>
+          </div>
+          <br />
+          <div>
+            <h3>Languages</h3>
+            <p>Hindi</p>
+            <br />
+            <div class="range"><div class="range3">90%</div></div>
+            <br />
+            <p>English</p>
+            <br />
+            <div class="range"><div class="range2">50%</div></div>
+            <br />
+            <p>Marathi</p>
+            <br />
+            <div class="range"><div class="range5">70%</div></div>
+            <br />
+          </div>
         </div>
       </div>
-      <div class="image">
-        <img
-          src="/img/ashock-chinha-removebg-preview (2).png"
-          alt=""
-          class="ashock-chinha"
-        />
-        <img src="/img/77-img-removebg-preview.png" alt="" class="day" />
+    </div>
+    <!-- start projects section -->
+    <div class="projects" id="project">
+      <h2>My Projects</h2>
+      <div class="project">
+        <div class="project1">
+          <a href="https://github.com/kirti9340/Tic-Tac-Toe-Game.git"
+            ><img src="/imgs/tic-tac-toe.png" width="300px" height="200px" /></a
+          ><br />
+          <b>Tic-Tac-Toe Game</b>
+        </div>
+        <div class="project1">
+          <a href="https://github.com/kirti9340/CODSOFT.git">
+            <img src="/imgs/Landing Page.png" width="300px" height="200px " /></a
+          ><br />
+          <b>Landing Page</b>
+        </div>
+        <div class="project1">
+          <a href="/GROW TECH/cookwebsite/cook.html">
+            <img
+              src="/imgs/occassionServices.png"
+              width="300px"
+              height="200px " /></a
+          ><br />
+          <b>Occassions Services</b>
+        </div>
       </div>
-      <img src="/img/img4.png" alt="" class="flag" />
-    </section>
-    <script src="/script.js"></script>
+    </div>
+    <!-- start contact section -->
+    <form class="contact" id="contact">
+      <h2>CONTACT</h2>
+      <div class="msg">
+        <div class="send">
+          <h3>Send A Message</h3>
+          <br /><br />
+          <label for="Name"></label>
+          <input type="text" placeholder="Name" value="Name" /><br /><br />
+          <label for="Email"></label>
+          <input type="text" placeholder="Email" value="Email" /><br /><br />
+          <label></label>
+          <input type="text" style="height: 100px" /> <br /><br />
+          <button>Send Message</button>
+        </div>
+        <div class="touch">
+          <h3>Get In Touch</h3>
+          <br /><br />
+          <p><i class="fa-solid fa-phone"></i>Phone:9340685695</p>
+          <br />
+          <p>
+            <i class="fa-solid fa-address-book"></i>Address:Indore Vijay
+            Nagar(M.P)
+          </p>
+          <br />
+          <p>
+            <i class="fa-solid fa-envelope"></i
+            >Email:kirtichoudhary9340@gmail.com
+          </p>
+          <br />
+        </div>
+      </div>
+    </form>
+
+    <footer>
+      <h3>Kirti Choudhary</h3>
+      <a href="https://www.linkedin.com/in/kirti-choudhary-213721251/"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://github.com/dashboard"><i class="fa-brands fa-github"></i></a>
+      <a href=""><i class="fa-brands fa-facebook"></i></a>
+      <a href=""><i class="fa-brands fa-instagram"></i></a>
+    </footer>
   </body>
 </html>
